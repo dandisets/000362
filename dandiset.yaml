@@ -24,9 +24,11 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 7507787224
-  numberOfFiles: 2
-  numberOfSubjects: 1
+  - name: current clamp technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 63878668385
+  numberOfFiles: 10
+  numberOfSubjects: 3
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
@@ -40,6 +42,7 @@ assetsSummary:
   - ProcessingModule
   - OpticalChannel
   - VoltageClampSeries
+  - CurrentClampSeries
 citation: Rózsa, Márton (2022) Simultaneous loose seal cell-attached recordings and
   two-photon imaging of GCaMP8 expressing mouse V1 neurons with drifting gratings
   visual stimuli  - RAW movies (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000362/draft
